@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNITY - We Are One</title>
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+            background-image: url("image/Golden Unity_ A Futuristic Hopeful Earth.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkgreen;
+        }
+
+        p {
+            color: white;
+            font-size: 18px;
+            line-height: 1.8;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            margin: 15px;
+        }
+
+        #message {
+            color: white;
+            font-size: 18px;
+            line-height: 2;
+            margin: 20px;
+        }
+
+        button {
+            background-color: darkgreen;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1>WE ALL ARE EQUAL</h1>
+
+        <p>
+            Equality means treating every person with
+            respect, kindness and fairness.
+        </p>
+
+        <p>
+            Every human being deserves equal rights,
+            equal opportunities and equal respect.
+        </p>
+
+        <button onclick="showMessage()">Learn More</button>
+        
+
+        <p id="message"></p>
+        <br>
+
+<a href="about.html"> 
+    
+    <button>CLICK HARE</button>
+</a>
+    </section>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+            "Everyone is equal. Respect everyone.<br>" +
+            "Every person in this world deserves love, care and respect.<br>" +
+            "We should treat everyone equally without judging their colour, religion, language or background.";
+        }
+    </script>
+
+</body>
+</html>
